@@ -25,45 +25,17 @@ Her samles eksempler, cases og mini-guides, der gør sikkerhed konkret og relate
 
 ## Struktur
 
-Repositoryet er **organiseret efter SDLC-faser**. Hver fase har sin egen mappe med cases, guides og noter:
+Repositoryet er bygget op, så det følger **Software Development Lifecycle (SDLC)**.  
+Hver mappe indeholder viden, cases og ressourcer relateret til en fase eller et formål i projektet.
 
-```
-Sikkerhed-som-praksis/
-│
-├── sdlc/
-│   ├── 01-planlaegning/
-│   │   ├── cases/
-│   │   ├── guides/
-│   │   └── notes.md
-│   ├── 02-analyse/
-│   │   ├── cases/
-│   │   ├── guides/
-│   │   └── notes.md
-│   ├── 03-design/
-│   │   ├── cases/
-│   │   ├── guides/
-│   │   └── notes.md
-│   ├── 04-implementation/
-│   │   ├── cases/
-│   │   ├── guides/
-│   │   └── notes.md
-│   ├── 05-test-integration/
-│   │   ├── cases/
-│   │   ├── guides/
-│   │   └── notes.md
-│   └── 06-vedligeholdelse/
-│       ├── cases/
-│       ├── guides/
-│       └── notes.md
-│
-├── docs/
-│   ├── Sikkerhed_som_praksis_model.md   # samlet model og opsamling på kampagnen
-│   ├── case-skabelon.md                 # skabelon til cases
-│   └── metodologi.md                    # hvordan feedback og data behandles
-│
-├── campaign/                            # LinkedIn-opslag og opsamlinger
-└── assets/                              # diagrammer og visuelle elementer
-```
+- **`sdlc/`** – Inddelt i seks undermapper (Planlægning, Analyse, Design, Implementation, Test/Integration, Vedligeholdelse).  
+  Hver fase rummer *cases*, *guides* og *noter* relateret til dens rolle i sikker udvikling.
+
+- **`docs/`** – Projektets dokumentation, herunder den samlede model (*Sikkerhed_som_praksis_model.md*), case-skabelonen og metodiske beskrivelser.
+
+- **`campaign/`** – Tekster fra LinkedIn-opslag, kommentarer og opsamlinger, som danner grundlag for den praksisnære model.
+
+- **`assets/`** – Diagrammer, illustrationer og visuelle materialer, der anvendes i cases, guides og kampagnen.
 
 ---
 
