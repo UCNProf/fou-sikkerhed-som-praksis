@@ -1,4 +1,4 @@
-# Contributing to *Sikkerhed som praksis*
+# Bidrag til *Sikkerhed som praksis*
 
 Tak fordi du vil bidrage til projektet!  
 Formålet med dette repository er at samle **praksisnær viden om sikker softwareudvikling** – skrevet *af og for udviklere, tech leads og beslutningstagere*, der ønsker at gøre sikkerhed til en naturlig del af udviklingsprocessen.
