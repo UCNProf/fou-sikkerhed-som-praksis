@@ -66,7 +66,8 @@ Alt indhold publiceres under **Creative Commons BY-SA 4.0**, hvilket betyder:
 **Projektleder:**  
 Lars Nysom, adjunkt – UCN IT-sikkerhed  
 lany@ucn.dk  
-https://www.ucn.dk
+https://www.ucn.dk  
+https://www.linkedin.com/in/larsnysom/  
 
 ---
 
