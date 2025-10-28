@@ -124,6 +124,3 @@ Om man bygger hele systemer eller blot enkelte dele, kan SSDLC give et fælles s
 
 > Formålet er ikke at skabe mere proces – men mere bevidst praksis.
 
----
-
-Vil du have, at jeg laver en **kort introversion** af denne tekst (ca. 1 side), som du kan bruge som “SSDLC i praksis – overblik” i begyndelsen af dokumentet eller som en hånd-out til workshops?
