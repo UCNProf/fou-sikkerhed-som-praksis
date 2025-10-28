@@ -12,7 +12,7 @@
 Dette repository er en del af FoU-projektet **“Sikkerhed som praksis”**, der har til formål at udvikle, afprøve og formidle **praksisnære og økonomisk realistiske tilgange til softwaresikkerhed** i mindre udviklingsmiljøer.
 
 Mange udviklingsteams ved, at sikkerhed er vigtigt – men oplever det som svært at omsætte teori til daglig praksis.  
-Projektet søger derfor at skabe en **levende model** for, hvordan sikkerhed kan integreres naturligt i hele softwareudviklingsprocessen (SDLC) uden at blive en barriere for produktivitet.
+Projektet søger derfor at skabe en **levende model** for, hvordan sikkerhed kan integreres naturligt i hele softwareudviklingsprocessen (SSDLC) uden at blive en barriere for produktivitet.
 
 ---
 
@@ -25,15 +25,13 @@ Her samles eksempler, cases og mini-guides, der gør sikkerhed konkret og relate
 
 ## Struktur
 
-Repositoryet er bygget op, så det følger **Software Development Lifecycle (SDLC)**.  
+Repositoryet er bygget op, så det følger **Secure Software Development Lifecycle (SSDLC)**.  
 Hver mappe indeholder viden, cases og ressourcer relateret til en fase eller et formål i projektet.
 
-- **`sdlc/`** – Inddelt i seks undermapper (Planlægning, Analyse, Design, Implementation, Test/Integration, Vedligeholdelse).  
+- **`ssdlc/`** – Inddelt i seks undermapper (Planlægning, Analyse, Design, Implementation, Test/Integration, Vedligeholdelse).  
   Hver fase rummer *cases*, *guides* og *noter* relateret til dens rolle i sikker udvikling.
 
 - **`docs/`** – Projektets dokumentation, herunder den samlede model (*Sikkerhed_som_praksis_model.md*), case-skabelonen og metodiske beskrivelser.
-
-- **`campaign/`** – Tekster fra LinkedIn-opslag, kommentarer og opsamlinger, som danner grundlag for den praksisnære model.
 
 - **`assets/`** – Diagrammer, illustrationer og visuelle materialer, der anvendes i cases, guides og kampagnen.
 
