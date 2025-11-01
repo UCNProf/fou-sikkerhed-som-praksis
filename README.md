@@ -44,7 +44,7 @@ Alle er velkomne til at:
 - kommentere og diskutere via *Discussions*-fanen  
 - dele erfaringer fra egne projekter, så vi sammen styrker sikker udviklingspraksis  
 
-Læs mere i [CONTRIBUTING.md](CONTRIBUTING.md) (kommer snart).
+Læs mere i [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
