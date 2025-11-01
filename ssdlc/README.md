@@ -1,34 +1,57 @@
-## SSDLC i praksis – Overblik
+# Secure Software Development Lifecycle (SSDLC)
 
-**Secure Software Development Lifecycle (SSDLC)** handler ikke om at tilføje endnu et lag proces oven på udviklingsarbejdet.
-Det handler om at gøre **sikkerhed til en naturlig del af de aktiviteter, teams allerede udfører** – uanset om man arbejder med hele systemet eller blot én komponent.
-
-De fleste mindre udviklingsvirksomheder dækker kun **dele af livscyklussen**.
-Nogle udvikler et modul, andre står for integration, vedligeholdelse eller support.
-SSDLC skal derfor forstås som en **ramme for refleksion og ansvar** – et fælles sprog for, hvordan man styrker sikkerheden dér, hvor man faktisk har indflydelse.
+Dette katalog samler cases, guides og eksempler struktureret efter faserne i **Secure Software Development Lifecycle (SSDLC)**.  
+Formålet er at gøre det let for udviklingsteams at finde inspiration og praksisnære tiltag, der passer til netop den fase, de arbejder i.
 
 ---
 
-### Grundidéen
+## Struktur
 
-Sikkerhed integreres i hver fase af udviklingsprocessen, ikke som et særskilt trin til sidst.
-Hver fase bidrager med sit eget perspektiv på sikkerhed:
+Indholdet er opdelt i seks hovedfaser:
 
-| Fase                    | Fokus for sikkerhed i praksis                                                                                |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Planlægning**         | Fastlæg sikkerhedsmål, risikovillighed og ansvar. Indbyg sikkerhed i projektplaner og sprint backlog.        |
-| **Analyse**             | Forstå data, brugere og trusler. Kortlæg dataflows, trust boundaries og dokumentér sikkerhedskrav.           |
-| **Design**              | Byg sikkerhed ind i arkitekturen. Arbejd efter principperne for *secure* og *privacy by design*.             |
-| **Implementation**      | Kod sikkert. Brug code reviews, scanning, parametriserede forespørgsler og korrekt håndtering af secrets.    |
-| **Test og integration** | Test sikkerheden som en del af CI/CD. Udfør både automatiske og manuelle tests af risikofyldte funktioner.   |
-| **Vedligeholdelse**     | Overvåg, opdater og lær. Patch systemer, reager på hændelser og fasthold sikkerhed som en løbende aktivitet. |
+1. **Planlægning** – sikkerhedsmål, risikovurdering og awareness
+2. **Analyse** – trusselsmodellering, databeskyttelse og krav til sikkerhed
+3. **Design** – arkitektur, adgangsstyring, sikkerhedsprincipper
+4. **Implementering** – sikker kodning, afhængigheder, secret management
+5. **Test & Integration** – statisk og dynamisk test, review og automatisering
+6. **Drift & Vedligeholdelse** – patching, overvågning, incident response
 
 ---
 
-### Pointen
+## Case-format
 
-SSDLC er ikke kun for dem, der styrer hele processen – det er en måde at **arbejde ansvarligt og bevidst** med sikkerhed, uanset om man leverer koden, integrationen eller driften.
+Alle cases følger den fælles skabelon, som findes i [`/docs/case-skabelon.md`](../docs/case-skabelon.md).  
+En case skal typisk indeholde:
 
-Målet er ikke flere procedurer, men **mere bevidst praksis**:
-at de beslutninger, vi alligevel træffer hver dag som udviklere, bliver truffet med sikkerhed for øje.
+- **Baggrund** og forretningskontekst  
+- **Problemstilling** med reference til OWASP, ASVS eller tilsvarende  
+- **Praktisk løsning** og tiltag i udviklingsarbejdet  
+- **Typiske fejl** og **læringspointer**
 
+Skabelonen gør det muligt at beskrive både realistiske og fiktive situationer, og understøtter en praksisnær læringstilgang.
+
+---
+
+## Sådan bidrager du
+
+1. Find den fase, casen passer til.
+2. Opret en ny mappe med en kort, sigende titel  
+   f.eks. `03-design/broken-access-control/`
+3. Opret en `README.md` i den mappe og udfyld den efter skabelonen.
+4. Tilføj eventuelt kode, diagrammer eller bilag under samme mappe.
+5. Send et pull request med en kort beskrivelse af dit bidrag.
+
+Bidrag, der bygger på egne erfaringer, undervisning eller konkrete projekter, er særligt velkomne — også selv om de ikke er “perfekte”.  
+Målet er at dele realistiske erfaringer med, hvordan **sikkerhed kan blive en naturlig del af udviklingspraksis**.
+
+---
+
+## Inspiration
+
+- [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/)
+- [OWASP SAMM](https://owaspsamm.org/)
+- [NIST Secure Software Development Framework (SSDF)](https://csrc.nist.gov/publications/detail/sp/800-218/final)
+
+---
+
+*Dette materiale er en del af projektet **“Sikkerhed som praksis”**, der udvikles ved UCN som led i et FoU-projekt om praksisnær awareness og implementering af softwaresikkerhed i små udviklingsvirksomheder.*
