@@ -104,7 +104,7 @@ Teamet opdeler tiltagene i fire niveauer:
 | **1 – Kritisk (handle straks)**              | Risiko 25    | **Uautoriseret adgang til kundedata** → Indfør *rollebaseret adgangskontrol (RBAC)* og *inputvalidering på API-niveau*. | Brud på persondataforordningen (GDPR) og tab af kundetillid kan få alvorlige konsekvenser. |
 | **2 – Høj (planlæg hurtigst muligt)**        | Risiko 16    | **Manipuleret ordrestatus** → Implementér *signering og validering af ordretransaktioner*.                              | Påvirker virksomhedens drift og økonomi direkte.                                           |
 | **3 – Moderat (indfør ved næste iteration)** | Risiko 9     | **Aflytning af API-trafik** → Aktivér *tvungen HTTPS* og korrekt *TLS-konfiguration* i alle services.                   | Kan udnyttes af angribere, men sandsynligheden er lavere med interne netværk.              |
-| **4 – Lav (overvåg og forbedr senere)**      | Risiko 6     | **Fejllog eksponerer data** → Maskér PII i logfiler og justér fejlhåndtering.                                           | Konsekvensen er begrænset, men tiltaget er nemt at implementere.                           |
+| **4 – Lav (overvåg og forbedr senere)**      | Risiko 6     | **Fejllog eksponerer data** → Maskér PII[^1] i logfiler og justér fejlhåndtering.                                           | Konsekvensen er begrænset, men tiltaget er nemt at implementere.                           |
 
 Ved at koble hver risiko til et konkret kontrol- og prioriteringsniveau får teamet et klart beslutningsgrundlag. Det gør det tydeligt, **hvad der skal gøres først**, og **hvilke tiltag der kan planlægges ind i fremtidige iterationer**.
 
@@ -142,8 +142,6 @@ Når risikovurdering gøres konkret, bliver den et aktivt værktøj – ikke en 
 
 Afslutningsvis bør risikovurdering ses som en **løbende dialog** mellem teknik og forretning. Jo mere den integreres i hverdagen, desto mindre føles den som ekstraarbejde – og desto større bliver den faktiske sikkerhed.
 
----
-
 ## 9. Relation til SSDLC
 Risikovurderingen ligger i **analysefasen**, men påvirker alle efterfølgende faser.  
 Outputtet danner grundlag for:
@@ -151,18 +149,18 @@ Outputtet danner grundlag for:
 - teststrategi i **verifikationsfasen**,
 - og driftsmonitorering i **deployment**.
 
----
-
 ## 10. Videre læsning / referencer
 - [OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)  
 - [NIST SP 800-30: Risk Assessment Guide](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final)  
 - [OWASP ASVS v4.0.3 – V1 Architecture, Design and Threat Modeling](https://github.com/OWASP/ASVS/blob/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0.3-en.pdf)  
 - [SSDLC – Microsoft Security Development Lifecycle (til sammenligning)](https://learn.microsoft.com/en-us/security/sdl/)
 
----
-
 ## 11. Bilag
 Placeholder: `diagram.png` – illustrativ Threat Matrix-grafik.
+
+---
+
+[^1]: **PII (Personally Identifiable Information)** – personhenførbare oplysninger, dvs. data som direkte eller indirekte kan bruges til at identificere en person (f.eks. navn, e-mail, IP-adresse eller kundedata).
 
 ---
 
