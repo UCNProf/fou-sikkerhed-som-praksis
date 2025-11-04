@@ -1,31 +1,23 @@
-## Risikovurdering i praksis – Analysefasen i SSDLC
+# Risikovurdering i praksis
 
-### 1. Titel
+## 1.  Analysefasen i SSDLC
 
-> Denne case beskriver den **tekniske risikovurdering**, som udføres i **analysefasen** af SSDLC – efter den overordnede forretningsmæssige risikovurdering i planlægningsfasen. Formålet er at identificere konkrete trusler, vurdere sandsynlighed og konsekvens, og skabe et beslutningsgrundlag for design af sikkerhedskontroller.
+Denne case beskriver den **tekniske risikovurdering**, som udføres i **analysefasen** af SSDLC – efter den overordnede forretningsmæssige risikovurdering i planlægningsfasen. Formålet er at identificere konkrete trusler, vurdere sandsynlighed og konsekvens, og skabe et beslutningsgrundlag for design af sikkerhedskontroller.
 
----
-
-### 2. SSDLC-fase
+## 2. SSDLC-fase
 *Primær:* Analyse  
 *Sammenhæng:* Resultaterne bruges i designfasen til valg af sikkerhedskontroller
 
----
-
-### 3. Baggrund
+## 3. Baggrund
 Café-kæden **CoffeeShopChain** er i gang med at udvikle et nyt **ordrehåndteringssystem**, der håndterer bestillinger fra POS-terminaler, kundeapps og leveringsintegrationer. Systemet skal håndtere kundeoplysninger, betalingsstatus og interne produktdata.  
 
 Udviklingsteamet står i analysefasen og skal beslutte, hvilke dele af systemet der kræver særlig beskyttelse, før de går videre til design og implementering. Formålet er at få et fælles billede af risikoen – både teknisk og forretningsmæssigt.
 
----
-
-### 4. Problemstilling
+## 4. Problemstilling
 Hvordan kan et lille udviklingsteam identificere og vurdere de mest kritiske sikkerhedsrisici i systemet – uden at drukne i teori eller komplicerede metoder?  
 Målet er at prioritere indsatsen, så de mest alvorlige risici håndteres først.
 
----
-
-### 5. Teoretisk reference
+## 5. Teoretisk reference
 - **OWASP Top 10:** A04 – Insecure Design, A01 – Broken Access Control  
 - **OWASP ASVS 4.0.3:** V1 Architecture, Design and Threat Modeling  
 - **NIST SP 800-30:** Guide for Conducting Risk Assessments  
@@ -33,15 +25,15 @@ Målet er at prioritere indsatsen, så de mest alvorlige risici håndteres førs
 
 ---
 
-### 6. Praktisk løsning / tiltag
-#### a) Identifikation af aktiver
+## 6. Praktisk løsning / tiltag
+### a) Identifikation af aktiver
 Teamet starter med at identificere, hvad der skal beskyttes:
 - Kundedata (navn, kontakt, ordrer)
 - Betalingsinformationer (transaktionsstatus, ikke kortdata)
 - API’er mellem POS, App og backend
 - Admin-dashboard til produktstyring
 
-#### b) Identifikation af trusler  
+### b) Identifikation af trusler  
 Teamet identificerer mulige trusler mod hvert aktiv ved at diskutere **realistiske eksempler på, hvordan sårbarheder typisk opstår**. Formålet er at skabe forståelse for trusselsbilledet – ikke at dokumentere faktiske angreb eller producere omfattende dokumentation.
 
 - **Uautoriseret adgang til ordrer eller kundedata:**  
@@ -56,7 +48,7 @@ Teamet identificerer mulige trusler mod hvert aktiv ved at diskutere **realistis
 - **Utilsigtet dataeksponering via fejllogning:**  
   Kan ske, hvis fejlmeddelelser eller logfiler indeholder følsomme oplysninger som kundemail eller adgangstokens, som senere eksponeres gennem CI/CD-pipelines eller fejlanalyser.  
 
-#### c) Risk scoring
+### c) Risk scoring
 For at kunne prioritere risikoer anvendes en simpel model, hvor **risiko = sandsynlighed × konsekvens**.  
 Begge faktorer vurderes på en skala fra **1 (lav)** til **5 (høj)**.
 
@@ -82,7 +74,7 @@ Tallene bruges til at skabe et fælles sprog mellem udviklere og beslutningstage
 | Aflytning af API-trafik | 3 | 3 | **9** | Moderat |
 | Fejllog eksponerer data | 2 | 3 | **6** | Lav |
 
-#### d) Threat Matrix (tekstbaseret eksempel)
+### d) Threat Matrix (tekstbaseret eksempel)
 Når scoringerne er fastlagt, kan teamet visualisere dem i en enkel Threat Matrix for at skabe overblik og kommunikere risikoen til andre interessenter.
 
 | Sandsynlighed | Lav konsekvens | Mellem konsekvens | Høj konsekvens |
@@ -93,7 +85,7 @@ Når scoringerne er fastlagt, kan teamet visualisere dem i en enkel Threat Matri
 
 *(En visuel version af denne matrix kan tilføjes som `diagram.png` i mappen.)*
 
-#### e) Business Impact
+### e) Business Impact
 Teamet vurderer konsekvenserne i et sprog, der giver mening for forretningen:
 - **Kundetillid:** Databrud vil skade brandet og kundernes tillid.
 - **Drift:** Manipulerede ordrer påvirker leveringer og økonomi.
@@ -101,7 +93,7 @@ Teamet vurderer konsekvenserne i et sprog, der giver mening for forretningen:
 
 Resultatet deles med ledelsen, som prioriterer indsatsområder sammen med udviklerne.
 
-#### f) Fra vurdering til handling
+### f) Fra vurdering til handling
 
 Når scoringen er gennemført, omsætter teamet resultaterne til konkrete handlinger. Det er vigtigt, at arbejdet herefter **prioriteres systematisk**, så indsatsen bruges dér, hvor den gør størst forskel.
 
@@ -120,11 +112,11 @@ Tilgangen hjælper samtidig med at balancere sikkerhed og produktivitet — en v
 
 ---
 
-### 7. Typiske fejl og faldgruber i risikovurdering
+## 7. Typiske fejl og faldgruber i risikovurdering
 
 Selv en enkel risikovurdering kan miste sin værdi, hvis den udføres uden et klart formål. Erfaringen fra både undervisning og praksis viser, at mindre udviklingsteams ofte støder på de samme udfordringer, når de forsøger at integrere sikkerhed i arbejdet.
 
-**Hyppige faldgruber:**
+### Hyppige faldgruber
 
 - **At springe vurderingen over:** Systemet virker måske “ufarligt”, men selv små datalæk kan få store konsekvenser, hvis systemet senere kobles til andre dele af infrastrukturen.
 - **At fokusere for snævert:** Mange fokuserer på tekniske sårbarheder, men glemmer forretningspåvirkningen — driftstab, kundetillid eller omdømme.
@@ -136,11 +128,11 @@ En god risikovurdering skal være let at gentage, enkel at kommunikere og altid 
 
 ---
 
-### 8. Læringspointer og refleksion
+## 8. Læringspointer og refleksion
 
 Når risikovurdering gøres konkret, bliver den et aktivt værktøj – ikke en formel øvelse. Denne case viser, at små teams kan arbejde effektivt med sikkerhed, hvis fokus ligger på forståelse frem for formalia.
 
-**Vigtige pointer:**
+### Vigtige pointer
 
 - Risikovurdering handler om **indsigt, ikke dokumentation**.
 - En **Threat Matrix** giver visuelt overblik og gør det lettere at kommunikere resultater.
@@ -152,7 +144,7 @@ Afslutningsvis bør risikovurdering ses som en **løbende dialog** mellem teknik
 
 ---
 
-### 9. Relation til SSDLC
+## 9. Relation til SSDLC
 Risikovurderingen ligger i **analysefasen**, men påvirker alle efterfølgende faser.  
 Outputtet danner grundlag for:
 - valg af sikkerhedskontroller i **designfasen**,
@@ -161,7 +153,7 @@ Outputtet danner grundlag for:
 
 ---
 
-### 10. Videre læsning / referencer
+## 10. Videre læsning / referencer
 - [OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)  
 - [NIST SP 800-30: Risk Assessment Guide](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final)  
 - [OWASP ASVS v4.0.3 – V1 Architecture, Design and Threat Modeling](https://github.com/OWASP/ASVS/blob/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0.3-en.pdf)  
@@ -169,7 +161,7 @@ Outputtet danner grundlag for:
 
 ---
 
-### 11. Bilag
+## 11. Bilag
 Placeholder: `diagram.png` – illustrativ Threat Matrix-grafik.
 
 ---
