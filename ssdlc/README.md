@@ -9,12 +9,57 @@ Formålet er at gøre det let for udviklingsteams at finde inspiration og praksi
 
 Indholdet er opdelt i seks hovedfaser:
 
-1. **Planlægning** – sikkerhedsmål, risikovurdering og awareness
-2. **Analyse** – trusselsmodellering, databeskyttelse og krav til sikkerhed
-3. **Design** – arkitektur, adgangsstyring, sikkerhedsprincipper
-4. **Implementering** – sikker kodning, afhængigheder, secret management
+1. **Planlægning** – afgrænsning, forretningsmål og sikkerhedsstrategi
+   *Formål:* At forstå konteksten for udviklingsarbejdet.
+   *Indhold:*
+
+   - Afgrænsning af systemets formål og scope
+   - Identifikation af interessenter og dataansvar
+   - Fastlæggelse af overordnede sikkerhedsmål
+   - Awareness i teamet (roller, ansvar, kultur)
+   - Forberedelse til den efterfølgende tekniske analyse
+
+2. **Analyse** – risikovurdering, trusselsmodellering og sikkerhedskrav
+   *Formål:* At identificere og vurdere systemets trusler og risici, så designfasen kan baseres på faktiske prioriteringer.
+   *Indhold:*
+
+   - Identifikation af aktiver og trusler
+   - Risikovurdering (sandsynlighed × konsekvens, business impact)
+   - Threat modeling og angrebsveje
+   - Afledning af konkrete sikkerhedskrav
+
+3. **Design** – arkitektur, adgangsstyring og sikkerhedsprincipper
+   *Formål:* At designe systemet, så sikkerhed indbygges fra starten.
+   *Indhold:*
+
+   - Valg af arkitektur og frameworks
+   - Design af adgangsstyring og autorisation
+   - Brug af principper som least privilege, defense in depth og fail secure
+   - Dokumentation af sikkerhedskontroller
+
+4. **Implementering** – sikker kodning, afhængigheder og secret management
+   *Formål:* At omsætte designet til sikker kode og sikre integrationspunkter.
+   *Indhold:*
+
+   - Kodestandarder og secure coding guidelines
+   - Håndtering af afhængigheder og tredjepartskomponenter
+   - Secret management og konfiguration
+
 5. **Test & Integration** – statisk og dynamisk test, review og automatisering
-6. **Drift & Vedligeholdelse** – patching, overvågning, incident response
+   *Formål:* At verificere, at implementerede kontroller virker som forventet.
+   *Indhold:*
+
+   - Static Application Security Testing (SAST)
+   - Dynamic Application Security Testing (DAST)
+   - Code review, penetrationstest og automatiseret sikkerhedstjek
+
+6. **Drift & Vedligeholdelse** – patching, overvågning og incident response
+   *Formål:* At sikre fortsat beskyttelse og håndtering af nye trusler.
+   *Indhold:*
+
+   - Patching og opdateringer
+   - Overvågning og loganalyse
+   - Incident response og lessons learned
 
 ---
 
