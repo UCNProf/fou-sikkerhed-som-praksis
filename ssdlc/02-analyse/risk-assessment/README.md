@@ -23,8 +23,6 @@ Målet er at prioritere indsatsen, så de mest alvorlige risici håndteres førs
 - **NIST SP 800-30:** Guide for Conducting Risk Assessments  
 - **SSDLC-princip:** Risikoidentifikation og -vurdering i analysefasen som grundlag for designbeslutninger.
 
----
-
 ## 6. Praktisk løsning / tiltag
 ### a) Identifikation af aktiver
 Teamet starter med at identificere, hvad der skal beskyttes:
@@ -110,8 +108,6 @@ Ved at koble hver risiko til et konkret kontrol- og prioriteringsniveau får tea
 
 Tilgangen hjælper samtidig med at balancere sikkerhed og produktivitet — en vigtig forudsætning for, at små teams faktisk får gennemført arbejdet.
 
----
-
 ## 7. Typiske fejl og faldgruber i risikovurdering
 
 Selv en enkel risikovurdering kan miste sin værdi, hvis den udføres uden et klart formål. Erfaringen fra både undervisning og praksis viser, at mindre udviklingsteams ofte støder på de samme udfordringer, når de forsøger at integrere sikkerhed i arbejdet.
@@ -125,8 +121,6 @@ Selv en enkel risikovurdering kan miste sin værdi, hvis den udføres uden et kl
 - **At mangle opfølgning:** Risikoer ændrer sig, når systemet vokser. Hvis vurderingen kun sker én gang, bliver den hurtigt forældet.
 
 En god risikovurdering skal være let at gentage, enkel at kommunikere og altid tilgængelig som beslutningsstøtte – ikke som bilag.
-
----
 
 ## 8. Læringspointer og refleksion
 
@@ -160,8 +154,6 @@ Placeholder: `diagram.png` – illustrativ Threat Matrix-grafik.
 
 ---
 
-[^1]: **PII (Personally Identifiable Information)** – personhenførbare oplysninger, dvs. data som direkte eller indirekte kan bruges til at identificere en person (f.eks. navn, e-mail, IP-adresse eller kundedata).
-
----
-
 *Udarbejdet som del af FoU-projektet “Sikkerhed som praksis” – UCN, 2025.*
+
+[^1]: **PII (Personally Identifiable Information)** – personhenførbare oplysninger, dvs. data som direkte eller indirekte kan bruges til at identificere en person (f.eks. navn, e-mail, IP-adresse eller kundedata).
