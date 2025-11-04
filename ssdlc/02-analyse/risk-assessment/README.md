@@ -105,7 +105,7 @@ Resultatet deles med ledelsen, som prioriterer indsatsområder sammen med udvikl
 
 Når scoringen er gennemført, omsætter teamet resultaterne til konkrete handlinger. Det er vigtigt, at arbejdet herefter **prioriteres systematisk**, så indsatsen bruges dér, hvor den gør størst forskel.
 
-Teamet opdeler tiltagene i tre niveauer:
+Teamet opdeler tiltagene i fire niveauer:
 
 | Prioritet                                    | Risikoniveau | Tiltag                                                                                                                  | Begrundelse                                                                                |
 | -------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
