@@ -70,8 +70,6 @@ En god rolle- og adgangsmodel reducerer risikoen for sikkerhedsfejl senere i for
 ---
 
 ## Videre læsning
-- [OWASP Cheat Sheet – Access Control Design](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)  
-- [ASVS 4.0.3 – Section V4](https://github.com/OWASP/ASVS/blob/master/4.0/en/0x14-V4-Access-Control.md)  
 - [NIST SP 800-218 – Secure Software Development Framework](https://csrc.nist.gov/publications/detail/sp/800-218/final)
 
 ---
