@@ -148,9 +148,6 @@ Outputtet danner grundlag for:
 - [NIST SP 800-30: Risk Assessment Guide](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final)  
 - [OWASP ASVS v4.0.3 – V1 Architecture, Design and Threat Modeling](https://github.com/OWASP/ASVS/blob/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0.3-en.pdf)  
 
-## 11. Bilag
-Placeholder: `diagram.png` – illustrativ Threat Matrix-grafik.
-
 ---
 
 *Udarbejdet som del af FoU-projektet “Sikkerhed som praksis” – UCN, 2025.*
