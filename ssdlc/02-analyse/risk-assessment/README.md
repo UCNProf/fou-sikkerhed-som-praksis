@@ -147,7 +147,6 @@ Outputtet danner grundlag for:
 - [OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)  
 - [NIST SP 800-30: Risk Assessment Guide](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final)  
 - [OWASP ASVS v4.0.3 – V1 Architecture, Design and Threat Modeling](https://github.com/OWASP/ASVS/blob/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0.3-en.pdf)  
-- [SSDLC – Microsoft Security Development Lifecycle (til sammenligning)](https://learn.microsoft.com/en-us/security/sdl/)
 
 ## 11. Bilag
 Placeholder: `diagram.png` – illustrativ Threat Matrix-grafik.
