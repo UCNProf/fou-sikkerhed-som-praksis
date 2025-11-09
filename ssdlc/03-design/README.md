@@ -55,7 +55,6 @@ Outputtet bliver direkte input til:
 - [OWASP Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html)  
 - [OWASP ASVS 4.0.3 – V1: Architecture, Design and Threat Modeling Requirements](https://github.com/OWASP/ASVS/blob/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0.3-en.pdf)  
 - [OWASP SAMM 2.0 – Design: Threat Assessment](https://owaspsamm.org/model/design/threat-assessment/)  
-- [NIST SP 800-154 – Data-Centric System Threat Modeling](https://csrc.nist.gov/publications/detail/sp/800-154/final)  
 
 ---
 
