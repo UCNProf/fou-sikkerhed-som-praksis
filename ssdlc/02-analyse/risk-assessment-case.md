@@ -143,7 +143,7 @@ Risikovurderingen ligger i **analysefasen**, men påvirker alle efterfølgende f
 - [OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)  
 - [OWASP ASVS v4.0.3 – V1: Architecture, Design and Threat Modeling](https://github.com/OWASP/ASVS/blob/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0.3-en.pdf)  
 - [ENISA Indispensable baseline security requirements for the procurement of secure ICT products and services](https://docs.evolveum.com/midpoint/compliance/enisa-baseline/?utm_source=chatgpt.com)  
-- [Advancing Software Security in the EU] (https://eipacc.eu/wp-content/uploads/2021/08/ENISA-Report-Advancing-Software-Security-in-the-EU.pdf?utm_source=chatgpt.com)
+- [Advancing Software Security in the EU](https://eipacc.eu/wp-content/uploads/2021/08/ENISA-Report-Advancing-Software-Security-in-the-EU.pdf?utm_source=chatgpt.com)
 
 ---
 
