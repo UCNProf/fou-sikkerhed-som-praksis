@@ -60,7 +60,7 @@ Analysefasen udgør det første egentlige sikkerhedsarbejde i SSDLC.
 Den danner grundlag for de efterfølgende aktiviteter i designfasen, herunder:
 
 - [STRIDE – trusselsmodellering i praksis](../03-design/stride-case.md) *(kommer i 03-design)*  
-- [Risk Prioritization – Likelihood × Impact](../03-design/risk-prioritization-likelihood-impact.md) *(kommer i 03-design)*
+- [Risk Prioritization – Likelihood × Impact](../03-design/risk-prioritization-case.md) *(kommer i 03-design)*
 
 > **Overgang til designfasen:**  
 > Outputtet fra analysefasen anvendes direkte i designfasen, hvor trusler konkretiseres og prioriteres i forhold til arkitektur, dataflows og adgangskontroller.
