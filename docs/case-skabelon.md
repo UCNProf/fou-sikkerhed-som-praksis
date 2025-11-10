@@ -1,94 +1,98 @@
-## Format for “Sikkerhed som praksis” – Casebeskrivelser
+# [Titel på casen]
 
-### 1. Titel
-
-Kort og præcis, fx:
-**“Broken Access Control i designfasen – adgangsstyring før koden skrives”**
+*Kort indledning (2–4 linjer), der beskriver casens formål, kontekst og relevans i projektet “Sikkerhed som praksis”.  
+Her kan du fx nævne, hvilken praksis eller udfordring casen udspringer af, og hvordan den bidrager til forståelsen af sikkerhed som en del af udviklingsarbejdet.*
 
 ---
 
-### 2. SDLC-fase
+## 1. SSDLC-fase
 
-Angiv hvilken fase i **Secure Development Lifecycle** casen relaterer sig til:
+Angiv hvilken fase i **Secure Software Development Lifecycle (SSDLC)** casen relaterer sig til.  
+Der kan markeres både *primær* og *sekundær* fase, fx *primær: Design, sekundær: Implementering*.
 
-* Planlægning
-* Design
-* Implementering
-* Test
-* Deployment/Drift
+De seks faser i SSDLC er:
 
-Evt. marker med primær + sekundær fase (fx *primær: Design, sekundær: Implementering*).
+1. Planlægning  
+2. Analyse  
+3. Design  
+4. Implementering  
+5. Test og integration  
+6. Vedligeholdelse
 
 ---
 
-### 3. Baggrund
+## 2. Baggrund
 
-Kort beskrivelse af det system eller produkt casen udspringer af.
-Det kan være fiktivt (fx “en online bestillingsplatform for caféer”) eller realistisk (“et API til ordrehåndtering i en intern platform”).
+Kort beskrivelse af det system eller produkt, som casen udspringer af.  
+Det kan være fiktivt (fx “en online bestillingsplatform for caféer”) eller realistisk (“et API til ordrehåndtering i en intern platform”).  
 Her etableres *forretningskonteksten* — hvad forsøger teamet at bygge, og hvilke sikkerhedskrav er relevante?
 
 ---
 
-### 4. Problemstilling
+## 3. Problemstilling
 
-Forklar hvilken *sikkerhedsudfordring* casen adresserer.
-Fx: “Hvordan sikrer man, at kun autoriserede brugere kan se, oprette og ændre kundeordrer?”
+Forklar hvilken *sikkerhedsudfordring* casen adresserer.  
+Fx: “Hvordan sikrer man, at kun autoriserede brugere kan se, oprette og ændre kundeordrer?”  
 Her kan du citere OWASP eller ASVS for at vise den teoretiske reference.
 
 ---
 
-### 5. Teoretisk reference
+## 4. Teoretisk reference
 
-Kobl problemstillingen til en eller flere **OWASP Top 10**, **ASVS controls** eller andre frameworks.
+Kobl problemstillingen til en eller flere **OWASP Top 10**, **ASVS-controls** eller andre frameworks.  
 Fx:
 
-* **OWASP A01: Broken Access Control**
+* **OWASP A01: Broken Access Control**  
 * **ASVS 4.0.3 – V4: Access Control Verification Requirements**
 
 ---
 
-### 6. Praktisk løsning / tiltag
+## 5. Praktisk løsning / tiltag
 
-Beskriv den konkrete tilgang, der gør teorien operationel i udviklingsarbejdet.
+Beskriv den konkrete tilgang, der gør teorien operationel i udviklingsarbejdet.  
 Her kan du fx vise:
 
-* Et diagram (f.eks. *Access Control Matrix*)
-* Et uddrag af et design-dokument
-* Eksempel på policy i kode (pseudo eller rigtigt eksempel)
-* Proces- eller værktøjsændringer (f.eks. “alle endpoints dokumenteres i API Spec med rollekrav”)
+* Et diagram (f.eks. *Access Control Matrix*)  
+* Et uddrag af et design-dokument  
+* Eksempel på policy i kode (pseudo eller rigtigt eksempel)  
+* Proces- eller værktøjsændringer (f.eks. “alle endpoints dokumenteres i API-specifikationen med rollekrav”)
 
 ---
 
-### 7. Typiske fejl og faldgruber
+## 6. Typiske fejl og faldgruber
 
-Beskriv hvad der ofte går galt i praksis, og hvordan det kan undgås.
+Beskriv hvad der ofte går galt i praksis, og hvordan det kan undgås.  
 Dette afsnit skaber læring og refleksion.
 
 ---
 
-### 8. Læringspointer
+## 7. Læringspointer
 
-Opsummer 3–5 konkrete takeaways:
+Opsummer 3–5 konkrete takeaways, fx:
 
-* “Tænk adgangsstyring før koden skrives.”
-* “Dokumentér roller og rettigheder eksplicit i designet.”
+* “Tænk adgangsstyring før koden skrives.”  
+* “Dokumentér roller og rettigheder eksplicit i designet.”  
 * “Automatisér validering, hvor det er muligt.”
 
 ---
 
-### 9. Relation til SDLC
+## 8. Relation til SSDLC
 
-Et lille diagram eller kort tekst, der viser hvor i SDLC dette arbejde placeres, og hvordan det påvirker de øvrige faser.
-
----
-
-### 10. Videre læsning / referencer
-
-Links til OWASP, ASVS-sektioner, NIST, værktøjer eller cases fra industrien.
+Et lille diagram eller kort tekst, der viser hvor i SSDLC dette arbejde placeres, og hvordan det påvirker de øvrige faser.
 
 ---
 
-### 11. Bilag (valgfrit)
+## 9. Videre læsning / referencer
 
-Eventuelle eksempler, kodeuddrag eller skabeloner, du vil gøre tilgængelige for læseren.
+Links til OWASP, ASVS-sektioner, værktøjer eller cases fra industrien.  
+(NIST-referencer frarådes i projektet.)
 
+---
+
+> **Bilag**
+>
+> Bilag oprettes som separate Markdown-filer og navngives konsekvent:
+>  
+> `case-[slug]-bilag-01.md`, `case-[slug]-bilag-02.md`, osv.  
+>  
+> Bilag kan fx indeholde kodeuddrag, diagrammer, tjeklister eller procesbeskrivelser, der understøtter casen.
