@@ -62,7 +62,7 @@ Tiltagene omfatter:
 
 Tilgangen kræver ingen avancerede værktøjer – et simpelt regneark eller dokument er tilstrækkeligt – hvilket gør metoden realistisk for små teams.
 
-*Se bilag `case-broken-access-control-bilag-01.md` for et konkret eksempel på den anvendte access-matrix.*
+*Se [bilag 1](case-broken-access-control-bilag-01.md) for et konkret eksempel på den anvendte access-matrix.*
 
 ---
 
