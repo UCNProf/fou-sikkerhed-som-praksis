@@ -3,8 +3,6 @@
 Tak fordi du vil bidrage til projektet!  
 Formålet med dette repository er at samle **praksisnær viden om sikker softwareudvikling** – skrevet *af og for udviklere, tech leads og beslutningstagere*, der ønsker at gøre sikkerhed til en naturlig del af udviklingsprocessen.
 
----
-
 ## Hvad du kan bidrage med
 
 Der er mange måder at deltage på. Du kan fx:
@@ -18,7 +16,20 @@ Der er mange måder at deltage på. Du kan fx:
 
 - **Forbedre eksisterende indhold** – rettelser, formatering, nye referencer eller uddybende eksempler er altid velkomne.
 
----
+## Brug af fiktiv kontekst
+
+Dette repository anvender to fiktive virksomheder – **NordicApps** og **Café Sanchez** – som fælles referencepunkt i alle cases, eksempler og bilag. Ved at bruge en gennemgående kontekst sikrer vi ensartethed på tværs af materialet og undgår at involvere virkelige virksomheder.
+
+Når du bidrager til repoet:
+
+- Brug kun NordicApps og Café Sanchez som organisatorisk eller forretningsmæssig kontekst, med mindre andet er aftalt.
+- Undgå at introducere egne fiktive virksomheder.
+- Sørg for, at beskrivelser, diagrammer og kodeeksempler passer ind i den eksisterende fortælling.
+- Henvis gerne til virksomhedsfilerne i `docs/virksomheder/` for at sikre konsistens.
+- Undlad at bruge virkelige virksomhedsnavne, kundedata eller cases fra konkrete projekter.
+
+Formålet er at gøre materialet tilgængeligt, genbrugeligt og overskueligt for både undervisere, studerende og samarbejdspartnere.
+
 
 ## Sådan indsender du ændringer
 
@@ -36,8 +47,6 @@ Der er mange måder at deltage på. Du kan fx:
 
 5. **Opret et Pull Request (PR)**  
    Beskriv kort, hvad dit bidrag indeholder, og hvilken SDLC-fase det relaterer sig til.
-
----
 
 ## Review- og feedbackproces
 
@@ -66,8 +75,6 @@ Målet er ikke at finde fejl – men at hjælpe bidraget til at blive så brugba
 
 4. **Revision og merge**
    Når eventuelle rettelser er på plads, merges PR’en, og bidragyderen krediteres i commit-historikken og evt. i docs/Sikkerhed_som_praksis_model.md.
-   
----
 
 ## Retningslinjer for cases og guides
 
@@ -76,8 +83,6 @@ Målet er ikke at finde fejl – men at hjælpe bidraget til at blive så brugba
 - Henvis gerne til **OWASP**, **ASVS**, NIST eller andre frameworks, men skriv i et tilgængeligt sprog.
 - Du må gerne nævne teknologier, men undgå at reklamere for produkter eller kommercielle værktøjer.
 - Del kun **ikke-følsomme erfaringer** og ingen oplysninger om kunder, kodebaser eller fortrolige systemer.
-
----
 
 ## Licens og kreditering
 
@@ -88,8 +93,6 @@ Det betyder, at:
 
 - Du krediteres som bidragyder.
 - Andre må frit genbruge og videreudvikle dit indhold, så længe de angiver kilde og deler under samme licens.
-
----
 
 ## Tak
 
