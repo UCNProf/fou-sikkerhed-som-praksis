@@ -5,8 +5,6 @@
 [![Issues](https://img.shields.io/badge/Suggest%20a%20case%20or%20improvement-yellow)](../../issues)
 [![Status](https://img.shields.io/badge/Status-Living%20project-success)](#)
 
----
-
 ## Formål
 
 Dette repository er en del af FoU-projektet **“Sikkerhed som praksis”**, der har til formål at udvikle, afprøve og formidle **praksisnære og økonomisk realistiske tilgange til softwaresikkerhed** i mindre udviklingsmiljøer.
@@ -14,14 +12,21 @@ Dette repository er en del af FoU-projektet **“Sikkerhed som praksis”**, der
 Mange udviklingsteams ved, at sikkerhed er vigtigt – men oplever det som svært at omsætte teori til daglig praksis.  
 Projektet søger derfor at skabe en **levende model** for, hvordan sikkerhed kan integreres naturligt i hele softwareudviklingsprocessen (SSDLC) uden at blive en barriere for produktivitet.
 
----
-
 ## Baggrund
 
 Projektet udspringer af erfaringer fra oplæg, hackathons og samarbejder med små udviklingsvirksomheder, hvor udfordringen sjældent har været modvilje, men at eksisterende materiale ofte opleves for teoretisk.  
 Her samles eksempler, cases og mini-guides, der gør sikkerhed konkret og relaterbar – skrevet **af og for udviklere**.
 
----
+## Brug af fiktive virksomheder
+
+Materialet i dette repository anvender to fiktive virksomheder – **NordicApps** og **Café Sanchez** – som gennemgående eksempler. Formålet er at skabe en realistisk og genkendelig kontekst for udviklingsscenarier, uden at afsløre eller referere til konkrete virksomheder.
+
+- **NordicApps** fungerer som et mindre softwareudviklingsteam, der udvikler og drifter digitale løsninger for deres kunder. Virksomheden repræsenterer de udfordringer og prioriteringer, som mange små udviklingsmiljøer oplever i praksis.
+  
+- **Café Sanchez** bruges som kundeeksempel i cases om systemdesign, adgangsstyring, trusselsmodellering og drift. Kæden afhænger af digitale systemer, men har begrænset teknisk indsigt, hvilket gør den velegnet til at illustrere risici og sikkerhedsbehov.
+
+De to virksomheder udgør et fælles narrativt grundlag for cases, eksempler og SSDLC-materialer. De bidrager til konsistens på tværs af repoet og gør det lettere at demonstrere, hvordan sikkerhed kan integreres i konkrete udviklings- og driftsopgaver.
+
 
 ## Struktur
 
@@ -35,8 +40,6 @@ Hver mappe indeholder viden, cases og ressourcer relateret til en fase eller et 
 
 - **`assets/`** – Diagrammer, illustrationer og visuelle materialer, der anvendes i cases, guides og kampagnen.
 
----
-
 ## Sådan kan du bidrage
 
 Alle er velkomne til at:
@@ -45,8 +48,6 @@ Alle er velkomne til at:
 - dele erfaringer fra egne projekter, så vi sammen styrker sikker udviklingspraksis  
 
 Læs mere i [CONTRIBUTING.md](CONTRIBUTING.md).
-
----
 
 ## Licens
 
@@ -57,7 +58,6 @@ Alt indhold publiceres under **Creative Commons BY-SA 4.0**, hvilket betyder:
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
----
 
 ## Kontakt
 
