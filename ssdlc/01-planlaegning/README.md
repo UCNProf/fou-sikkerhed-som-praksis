@@ -83,9 +83,9 @@ Bilagene indeholder skabeloner, eksempler og artefakter, der kan bruges af udvik
 
 | Bilag                                             | Beskrivelse                                                     |
 | ------------------------------------------------- | --------------------------------------------------------------- |
-| **Bilag 01 – Aktiver og må-ikke-handlinger**      | Dokumenteret eksempel fra NordicApps’ arbejde i fase 1          |
-| **Bilag 02 – Kickoff-skema til planlægningsmøde** | Letvægtsværktøj til planlægning af et 30–45 min. sikkerhedsmøde |
-| **Bilag 03 – Mini-tjekliste for små teams**       | Hurtig checkliste til brug før sprint 0 eller projektopstart    |
+| [**Bilag 01 – Aktiver og må-ikke-handlinger**](case-early-asset-prioritization-bilag-01.md)      | Dokumenteret eksempel fra NordicApps’ arbejde i fase 1          |
+| [**Bilag 02 – Kickoff-skema til planlægningsmøde**](case-early-asset-prioritization-bilag-02.md) | Letvægtsværktøj til planlægning af et 30–45 min. sikkerhedsmøde |
+| [**Bilag 03 – Mini-tjekliste for små teams**](case-early-asset-prioritization-bilag-03.md)       | Hurtig checkliste til brug før sprint 0 eller projektopstart    |
 
 Yderligere bilag (fx udfyldte eksempler, visuelle modeller eller eksterne guides) kan tilføjes efter behov.
 
