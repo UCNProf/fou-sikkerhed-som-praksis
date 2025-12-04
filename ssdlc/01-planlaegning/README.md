@@ -72,7 +72,7 @@ Fasen udbygges løbende med cases, der viser, hvordan NordicApps og deres kunder
 
 | Case                                                                  | Indhold                                                                            | Fokus                                                    |
 | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| **Tidlig afklaring af kritiske aktiver i et nyt ordrestyringssystem** | NordicApps identificerer aktiver og må-ikke-handlinger for et takeaway-ordresystem | Kritiske aktiver, sikkerhedsniveau, “må-ikke”-handlinger |
+| [**Tidlig afklaring af kritiske aktiver i et nyt ordrestyringssystem**](case-early-asset-prioritization.md)) | NordicApps identificerer aktiver og må-ikke-handlinger for et takeaway-ordresystem | Kritiske aktiver, sikkerhedsniveau, “må-ikke”-handlinger |
 
 *(Nye cases tilføjes her efterhånden som de udvikles.)*
 
