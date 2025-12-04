@@ -13,8 +13,6 @@ Dette bilag indeholder et simpelt, praktisk anvendeligt kickoff-skema, der kan b
 * Hvilket problem løser systemet?
 * Hvem er primære brugere?
 
----
-
 **B. Primære aktiver (5 min)**
 Notér de 3–6 vigtigste aktiver:
 
@@ -24,14 +22,10 @@ Notér de 3–6 vigtigste aktiver:
 |       |                  |                                |
 |       |                  |                                |
 
----
-
 **C. Kritiske processer (5 min)**
 
 * Hvilke funktioner må aldrig fejle?
 * Hvilke ændringer ville være mest alvorlige?
-
----
 
 **D. Foreløbige “må-ikke” handlinger (10 min)**
 Definér 3–5 handlinger systemet aldrig må tillade:
@@ -42,15 +36,11 @@ Definér 3–5 handlinger systemet aldrig må tillade:
 |                  |             |                       |
 |                  |             |                       |
 
----
-
 **E. Aftalt sikkerhedsniveau (5 min)**
 
 * Hvilke sikkerhedskrav er absolut minimum?
 * Skal teamet følge en “ASVS light”?
 * Skal alle features have security review?
-
----
 
 **F. Konkrete output (5 min)**
 Efter mødet skal teamet have:
